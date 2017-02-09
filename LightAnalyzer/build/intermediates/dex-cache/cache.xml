@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="7a8df1debdb13a0283ea3525920bcea59c3efa4a">
+        sha1="fff63e24c08c5699730fc6461a74042dd9d97c4f">
         <dex dex="C:\Users\niggl\Desktop\CS4222\LightAnalyzer\LightAnalyzer\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0e46cc7e5d702f45cd1030ba9da81cf4978e0a49\classes.dex" />
     </item>
     <item
@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="41ad8382ae5cc8b7a2ae28ad90c2b9e955eb152f">
+        sha1="93093fcc1c2f1ddd29de0633b45ee5484dc612da">
         <dex dex="C:\Users\niggl\Desktop\CS4222\LightAnalyzer\LightAnalyzer\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0e797253a463432869c9b1e6c66cf421204b6933\classes.dex" />
     </item>
     <item

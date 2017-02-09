@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Feb 09 20:24:21 SGT 2017
+#Thu Feb 09 21:59:17 SGT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\niggl\\Desktop\\CS4222\\LightAnalyzer\\LightAnalyzer\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_default.xml

@@ -5,29 +5,29 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="209656969944086"
+    timestamp="215359449660622"
     token="2526985197069977741"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1579" />
+        duration="955" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="631" />
+        duration="255" />
     <task
         name="verifier"
-        duration="108" />
+        duration="140" />
 
     <artifact
         location="C:\Users\niggl\Desktop\CS4222\LightAnalyzer\LightAnalyzer\build\outputs\apk\LightAnalyzer-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="209656969944086"
+        timestamp="215359449660622"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\niggl\Desktop\CS4222\LightAnalyzer\LightAnalyzer\build\outputs\apk\LightAnalyzer-debug.apk"

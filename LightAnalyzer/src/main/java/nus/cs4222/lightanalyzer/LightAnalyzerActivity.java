@@ -267,7 +267,7 @@ public class LightAnalyzerActivity
                 sb.append("\nLongitude: " + Double.toString(longitude) + "\nLatitude: " + Double.toString(latitude));
             } else {
                 sb.append("Location: OUTDOORS");
-                sb.append("\nLongitude: GPS ERROR :(" + "\nLatitude: GPS ERROR :(");
+                sb.append("\nLongitude: Can't locate satellites! :(" + "\nLatitude: Can't locate satellites! :(");
             }
         }
         else {
@@ -444,7 +444,7 @@ public class LightAnalyzerActivity
     }
 
     /** ADDED: VARIABLES TO BE USED. */
-    private static final int INDOOR_THRESHOLD = 5;
+    private static final int INDOOR_THRESHOLD = 350;
     private boolean isOutdoors;
     private Location location;
     private double latitude;
