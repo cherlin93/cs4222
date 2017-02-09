@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="209656969944086"
+    token="2526985197069977741"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1579" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="631" />
+    <task
+        name="verifier"
+        duration="108" />
+
+    <artifact
+        location="C:\Users\niggl\Desktop\CS4222\LightAnalyzer\LightAnalyzer\build\outputs\apk\LightAnalyzer-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="209656969944086"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\niggl\Desktop\CS4222\LightAnalyzer\LightAnalyzer\build\outputs\apk\LightAnalyzer-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
