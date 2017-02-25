@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "B:\\CS4222\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\rifle.mp3",
+        "source": "B:\\CS4222\\ShootingApp\\src\\main\\res\\raw\\rifle.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\rifle2.mp3",
+        "source": "B:\\CS4222\\ShootingApp\\src\\main\\res\\raw\\rifle2.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\handgun.mp3",
+        "source": "B:\\CS4222\\ShootingApp\\src\\main\\res\\raw\\handgun.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\torpedo.wav",
+        "source": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\src\\main\\res\\raw\\torpedo.wav"
+    },
+    {
+        "merged": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\rifle.mp3",
+        "source": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\src\\main\\res\\raw\\rifle.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\rifle2.mp3",
+        "source": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\src\\main\\res\\raw\\rifle2.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\torpedo.wav",
+        "source": "B:\\CS4222\\ShootingApp\\src\\main\\res\\raw\\torpedo.wav"
+    },
+    {
+        "merged": "B:\\CS4222\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\machinegun.mp3",
+        "source": "B:\\CS4222\\ShootingApp\\src\\main\\res\\raw\\machinegun.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\rocket1.wav",
+        "source": "B:\\CS4222\\ShootingApp\\src\\main\\res\\raw\\rocket1.wav"
+    },
+    {
+        "merged": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\machinegun.mp3",
+        "source": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\src\\main\\res\\raw\\machinegun.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\weirdmachinegun.mp3",
+        "source": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\src\\main\\res\\raw\\weirdmachinegun.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\rocket1.wav",
+        "source": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\src\\main\\res\\raw\\rocket1.wav"
+    },
+    {
+        "merged": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\missile1.wav",
+        "source": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\src\\main\\res\\raw\\missile1.wav"
+    },
+    {
+        "merged": "B:\\CS4222\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\weirdmachinegun.mp3",
+        "source": "B:\\CS4222\\ShootingApp\\src\\main\\res\\raw\\weirdmachinegun.mp3"
+    },
+    {
+        "merged": "B:\\CS4222\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\missile1.wav",
+        "source": "B:\\CS4222\\ShootingApp\\src\\main\\res\\raw\\missile1.wav"
+    },
+    {
+        "merged": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\res\\merged\\debug\\raw\\handgun.mp3",
+        "source": "B:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\src\\main\\res\\raw\\handgun.mp3"
+    }
+]

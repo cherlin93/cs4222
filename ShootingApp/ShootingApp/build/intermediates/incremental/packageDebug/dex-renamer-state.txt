@@ -1,0 +1,7 @@
+#Sat Feb 25 21:41:55 SGT 2017
+base.0=B\:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c886c91c89c4a2f2ccb5ebbd71f6589be986d133
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=B\:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_76ac072f74c2adc8d30f73abe7120270515d6050\\classes.dex
+base.1=B\:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_76ac072f74c2adc8d30f73abe7120270515d6050
+file.0=B\:\\CS4222\\Motion-Sensor-Processing\\ShootingApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c886c91c89c4a2f2ccb5ebbd71f6589be986d133\\classes.dex
