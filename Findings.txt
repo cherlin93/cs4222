@@ -1,0 +1,342 @@
+------------------------------------------------------------------------------------------------------------------
+Scoring system: (VERSION A)
+
+int SCORE_WITHIN_FIVE = 10;
+int SCORE_WITHIN_TEN = 6;
+int SCORE_WITHIN_TWENTY = 3;
+int SCORE_WITHIN_THIRTY = 1;
+
+Best candidate found:
+lat/lng: (1.2950034016634164,103.77382792532444)
+
+List of APs that the candidate possesses:
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:bb ; RSSI:83
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:ba ; RSSI:81
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:cf ; RSSI:88
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:ce ; RSSI:79
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:bf ; RSSI:81
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:cc ; RSSI:79
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:cb ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:be ; RSSI:81
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:ca ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:bc ; RSSI:81
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:ee ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:ef ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:ea ; RSSI:79
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:ec ; RSSI:88
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:1c:2a ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:1c:2e ; RSSI:89
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:09 ; RSSI:75
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:07 ; RSSI:78
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2e ; RSSI:74
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2f ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2a ; RSSI:82
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:04:1f ; RSSI:82
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:a7 ; RSSI:87
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2c ; RSSI:81
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2b ; RSSI:87
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:a9 ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:04:1b ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:04:1e ; RSSI:83
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8f:d8:df ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8f:d8:de ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:05 ; RSSI:83
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:04 ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:01 ; RSSI:83
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:00 ; RSSI:81
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:29 ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:28 ; RSSI:87
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c4 ; RSSI:70
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c5 ; RSSI:70
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c7 ; RSSI:62
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c0 ; RSSI:68
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c1 ; RSSI:69
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c3 ; RSSI:69
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:25 ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:27 ; RSSI:77
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:21 ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:20 ; RSSI:84
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:23 ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:b9 ; RSSI:80
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:b7 ; RSSI:82
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c8 ; RSSI:69
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c9 ; RSSI:63
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:ce ; RSSI:63
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9e ; RSSI:66
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:cf ; RSSI:64
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:af ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9f ; RSSI:66
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:ae ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9c ; RSSI:67
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:1c ; RSSI:87
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:ca ; RSSI:64
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:cb ; RSSI:62
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9a ; RSSI:67
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:1a ; RSSI:87
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:ab ; RSSI:87
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9b ; RSSI:70
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:cc ; RSSI:65
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:1b ; RSSI:88
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:aa ; RSSI:86
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:1f ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:05:ab:d0 ; RSSI:88
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:80 ; RSSI:66
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:17 ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:73 ; RSSI:78
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:70 ; RSSI:74
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:71 ; RSSI:74
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:87 ; RSSI:68
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:89 ; RSSI:53
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:88 ; RSSI:77
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:85 ; RSSI:78
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:89 ; RSSI:70
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:81 ; RSSI:66
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:84 ; RSSI:68
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:83 ; RSSI:68
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:85 ; RSSI:69
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:88 ; RSSI:69
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:87 ; RSSI:53
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:97 ; RSSI:71
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:98 ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:94 ; RSSI:84
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:91 ; RSSI:83
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:80 ; RSSI:76
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:83 ; RSSI:66
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:84 ; RSSI:74
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:81 ; RSSI:76
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:99 ; RSSI:66
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:77 ; RSSI:69
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:0b ; RSSI:87
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:0a ; RSSI:89
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:74 ; RSSI:73
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:75 ; RSSI:74
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:0f ; RSSI:88
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:0e ; RSSI:89
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:78 ; RSSI:73
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:79 ; RSSI:59
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:90 ; RSSI:83
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7f ; RSSI:59
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7e ; RSSI:58
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:07 ; RSSI:90
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:05 ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8b ; RSSI:53
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8a ; RSSI:52
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:09 ; RSSI:88
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8c ; RSSI:53
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8f ; RSSI:49
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:04:17 ; RSSI:84
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8e ; RSSI:53
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7b ; RSSI:69
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7c ; RSSI:56
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7a ; RSSI:56
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8e ; RSSI:69
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8f ; RSSI:71
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:e9 ; RSSI:88
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c7 ; RSSI:87
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c4 ; RSSI:84
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8f:d8:d7 ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c1 ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c0 ; RSSI:84
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 70:10:5c:7d:2c:4c ; RSSI:85
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0e ; RSSI:75
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0f ; RSSI:74
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0c ; RSSI:75
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8c ; RSSI:67
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0a ; RSSI:75
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0b ; RSSI:77
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8a ; RSSI:70
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c9 ; RSSI:52
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8b ; RSSI:66
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c8 ; RSSI:87
+
+Number of matched APs: 13
+
+List of MACs and their differences: 
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 84:b8:02:00:3b:bb ; Difference: 0
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 88:f0:31:8d:21:cf ; Difference: 6
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 84:b8:02:00:3b:bf ; Difference: 1
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 88:f0:31:8d:21:cb ; Difference: 1
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:74:0c:09 ; Difference: 0
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 74:a2:e6:ec:55:c5 ; Difference: 1
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 74:a2:e6:ec:55:c9 ; Difference: 1
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:74:0d:9f ; Difference: 3
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:44:05:aa ; Difference: 1
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:0f:7e:89 ; Difference: 5
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:0f:7e:87 ; Difference: 2
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:74:0d:99 ; Difference: 0
+03-09 17:18:11.137 17593-20554/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:0f:7e:8f ; Difference: 4
+
+Score: 126
+
+-------------------------------------------------------------------------------------------------------------------
+Scoring system: (VERSION B)
+
+int SCORE_WITHIN_FIVE = 10;
+int SCORE_WITHIN_TEN = 7;
+int SCORE_WITHIN_TWENTY = 5;
+int SCORE_WITHIN_THIRTY = 4;
+int SCORE_WITHIN_FORTY = 2;
+int SCORE_WITHIN_FIFTY = 1;
+
+Best candidate found:
+lat/lng: (1.2950034016634164,103.77382792532444)
+
+List of APs that the candidate possesses:
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:bb ; RSSI:83
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:ba ; RSSI:81
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:cf ; RSSI:88
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:ce ; RSSI:79
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:bf ; RSSI:81
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:cc ; RSSI:79
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:cb ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:be ; RSSI:81
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:ca ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:bc ; RSSI:81
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:ee ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:ef ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:ea ; RSSI:79
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:ec ; RSSI:88
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:1c:2a ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:1c:2e ; RSSI:89
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:09 ; RSSI:75
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:07 ; RSSI:78
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2e ; RSSI:74
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2f ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2a ; RSSI:82
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:04:1f ; RSSI:82
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:a7 ; RSSI:87
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2c ; RSSI:81
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:2b ; RSSI:87
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:a9 ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:04:1b ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:04:1e ; RSSI:83
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8f:d8:df ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8f:d8:de ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:05 ; RSSI:83
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:04 ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:01 ; RSSI:83
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:00 ; RSSI:81
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:29 ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:28 ; RSSI:87
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c4 ; RSSI:70
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c5 ; RSSI:70
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c7 ; RSSI:62
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c0 ; RSSI:68
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c1 ; RSSI:69
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c3 ; RSSI:69
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:25 ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:27 ; RSSI:77
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:21 ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:20 ; RSSI:84
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0b:23 ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:b9 ; RSSI:80
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3b:b7 ; RSSI:82
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c8 ; RSSI:69
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:c9 ; RSSI:63
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:ce ; RSSI:63
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9e ; RSSI:66
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:cf ; RSSI:64
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:af ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9f ; RSSI:66
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:ae ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9c ; RSSI:67
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:1c ; RSSI:87
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:ca ; RSSI:64
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:cb ; RSSI:62
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9a ; RSSI:67
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:1a ; RSSI:87
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:ab ; RSSI:87
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:9b ; RSSI:70
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 74:a2:e6:ec:55:cc ; RSSI:65
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:1b ; RSSI:88
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:05:aa ; RSSI:86
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:1f ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:05:ab:d0 ; RSSI:88
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:80 ; RSSI:66
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 84:b8:02:00:3a:17 ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:73 ; RSSI:78
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:70 ; RSSI:74
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:71 ; RSSI:74
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:87 ; RSSI:68
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:89 ; RSSI:53
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:88 ; RSSI:77
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:85 ; RSSI:78
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:89 ; RSSI:70
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:81 ; RSSI:66
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:84 ; RSSI:68
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:83 ; RSSI:68
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:85 ; RSSI:69
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:88 ; RSSI:69
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:87 ; RSSI:53
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:97 ; RSSI:71
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:98 ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:94 ; RSSI:84
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:91 ; RSSI:83
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:80 ; RSSI:76
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:83 ; RSSI:66
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:84 ; RSSI:74
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:81 ; RSSI:76
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:99 ; RSSI:66
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:77 ; RSSI:69
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:0b ; RSSI:87
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:0a ; RSSI:89
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:74 ; RSSI:73
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:75 ; RSSI:74
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:0f ; RSSI:88
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:0e ; RSSI:89
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:78 ; RSSI:73
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:79 ; RSSI:59
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0d:90 ; RSSI:83
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7f ; RSSI:59
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7e ; RSSI:58
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:07 ; RSSI:90
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:05 ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8b ; RSSI:53
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8a ; RSSI:52
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:91:ca:09 ; RSSI:88
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8c ; RSSI:53
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8f ; RSSI:49
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:44:04:17 ; RSSI:84
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:0f:7e:8e ; RSSI:53
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7b ; RSSI:69
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7c ; RSSI:56
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:be:c2:7a ; RSSI:56
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8e ; RSSI:69
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8f ; RSSI:71
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:82:fc:e9 ; RSSI:88
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c7 ; RSSI:87
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c4 ; RSSI:84
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8f:d8:d7 ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c1 ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c0 ; RSSI:84
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 70:10:5c:7d:2c:4c ; RSSI:85
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0e ; RSSI:75
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0f ; RSSI:74
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0c ; RSSI:75
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8c ; RSSI:67
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0a ; RSSI:75
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:74:0c:0b ; RSSI:77
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8a ; RSSI:70
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c9 ; RSSI:52
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: a8:9d:21:f3:70:8b ; RSSI:66
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: MAC Address: 88:f0:31:8d:21:c8 ; RSSI:87
+
+Number of matched APs: 13
+
+List of MACs and their differences:
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 84:b8:02:00:3b:bb ; Difference: 0
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 88:f0:31:8d:21:cf ; Difference: 6
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 84:b8:02:00:3b:bf ; Difference: 1
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 88:f0:31:8d:21:cb ; Difference: 1
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:74:0c:09 ; Difference: 0
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 74:a2:e6:ec:55:c5 ; Difference: 1
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: 74:a2:e6:ec:55:c9 ; Difference: 1
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:74:0d:9f ; Difference: 3
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:44:05:aa ; Difference: 1
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:0f:7e:89 ; Difference: 5
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:0f:7e:87 ; Difference: 2
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:74:0d:99 ; Difference: 0
+03-09 17:24:58.377 21546-23938/org.nus.cirlab.mapactivity D/MapsActivity: Matched MAC: a8:9d:21:0f:7e:8f ; Difference: 4
+
+Score: 127
+-------------------------------------------------------------------------------------------------------------------
