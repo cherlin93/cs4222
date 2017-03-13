@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="1061239391163018"
+    token="-3352201973821367501"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1172" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="185" />
+    <task
+        name="verifier"
+        duration="26" />
+
+    <artifact
+        location="D:\cs4222\Motion-Sensor-Processing\ShootingApp\build\outputs\apk\ShootingApp-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1061239391163018"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\cs4222\Motion-Sensor-Processing\ShootingApp\build\outputs\apk\ShootingApp-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

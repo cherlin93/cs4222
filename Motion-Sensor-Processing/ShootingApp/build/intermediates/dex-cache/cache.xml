@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\cs4222\Motion-Sensor-Processing\ShootingApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ef77d4e95c1801c11fa15866050e388d57da2b65">
+        <dex dex="D:\cs4222\Motion-Sensor-Processing\ShootingApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_297aa3606f3212219547541c085b26aaa94ddea5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\cs4222\Motion-Sensor-Processing\ShootingApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bcae65f476dafdf368a81bc908dca6513e731c98">
+        <dex dex="D:\cs4222\Motion-Sensor-Processing\ShootingApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5583316cd51bd98ee7e20c9a3e03e09a5132c8c5\classes.dex" />
+    </item>
+
+</items>
