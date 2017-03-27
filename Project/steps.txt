@@ -1,0 +1,32 @@
+if (steps_detected):
+    
+    is_walking()
+
+# Else no steps detected
+else:
+    
+    # If the speed is approximately some not-human like speed
+    if (speed > threshold):
+
+        in_vehicle()
+
+    # Else if speed lower than possible vehicle speed
+    else:
+
+        # Check GPS / Network
+        if (gps):
+
+            idle_outdoors()
+
+        # Else if network
+        else:
+
+            # If WiFi fingerprints match Com 1's
+            if (wifi_fingerprints_match_com_1_radio_map)
+
+                idle_com_1()
+
+            # Else if they don't match, probably indoors somewhere
+            else:
+
+                idle_indoors()
