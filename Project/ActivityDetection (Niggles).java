@@ -61,7 +61,7 @@ public class ActivityDetection {
     private double plongitude = 0;
     private double platitude = 0;
     private double ptimestamp = 0;
-    private final double THRESHOLD_SWING = 3.0;
+    private final double THRESHOLD_SWING = 2.0;
     private final double THRESHOLD_STANCE = 1.0;
     private String previous_provider = "network";
     private boolean is_walking = false;
@@ -167,7 +167,7 @@ public class ActivityDetection {
               average += acceleration_buffer.get(count);
             }
             average = average / 21;
-            if(average < 0.08) {
+            if(average < 0.1) {
               System.out.println("Average: " + average + " set to false");
               is_walking = false;
             }
@@ -433,7 +433,7 @@ public class ActivityDetection {
       platitude = latitude;
       plongitude = longitude;
       ptimestamp = timestamp;
-      if(speed_to_use > 2.0 || (speed_to_use > 1.0 && is_underground)) {
+      if(speed_to_use > 8.0 || (speed_to_use > 2.0 && speed_to_use < 80.0 && is_underground)) {
         System.out.println("Speed to use: " + speed_to_use + " & is underground: " + is_underground);
         is_vehicle = true;
       } else {

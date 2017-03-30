@@ -1,0 +1,86 @@
+Group 6 - Project README
+by: 
+Goh Cher Lin (A0112882H)
+Nelson Goh Wei Qiang (A0) 
+Nicholas Low Jun Han (A0110574N)
+
+This readme is split into three sections:
+1. Introduction
+2. Flags
+3. Decision Process
+4. Possible future improvements
+
+===============
+1. Introduction
+===============
+
+For this project, we have a flag based system and depending on the current flags that are active, the algorithm will decide which UserActivity to output.
+
+========
+2. FLAGS
+========
+
+The flags are:
+- is_walking
+- is_vehicle
+- is_undergorund
+- is_outside
+- is_com1
+
+is_walking
+---------- 
+This flag indicates if the user is currently walking based on an implementation of the threshold step detection algorithm as described in the WISP 2009 Jimenez paper provided to us on IVLE. 
+To provide a quick summary, these are the steps involved in the implemented step detection algorithm:
+1. Calculate the magnitude of the resultant acceleration from the x-axis, y-axis and z-axis accelerations obtained from the linear acceleration sensor
+2. Define a suitable window (in our algorithm, we followed the window size of 15 samples since too large a window will have a higher latency)
+3. Calculate the variance of the acceleration for each sample
+4. Define a threshold T1 for the swing phase and T2 for the stance phase
+5. Locate the first standard deviation that is strictly greater than the previous and also satisfies the condition: > T1
+6. After locating a candidate for the swing phase in step 5, we will look for a sample with a standard deviation that is < T2 within the window of 15 samples that come after the candidate.
+7. If such a standard deviation sample is found, the algorithm will determine that as a step. Else, the algorithm will restart and look for another swing phase candidate and repeat steps 5 to 7
+
+is_vehicle
+----------
+This flag indicates if the user is currently on a vehicle or not based on the speed parameter provided by the location sensor. If the speed is above a predefined threshold, the algorithm will set this flag to true. In order to make the detection slightly more accurate, we included a buffer whereby we will store the last 5 speed readings and find the average before using said value to determine if is_vehicle = true|false
+
+If the provider is "gps":
+The algorithm will used the speed parameter provided.
+If the provider is "network":
+The algorithm will make use of an implemented version of the Harversine formula to determine the distance between two samples and then divide it by the timestamps in order to obtain the speed.
+
+is_underground
+--------------
+This flag indicates if the user is currently underground. The algorithm will collect and store 3 sensor readings each time and use the average to compare with a predefined threshold before determining if flag should be set to true or false. The reason why our group chose to use this flag is that the trace has a large portion of the user being in a MRT journey which is predominantly underground, an indication if the user is underground or not would help to refine our determinination if user is in a vehicle or not.
+
+is_outside
+----------
+This flag indicates if the user is outside or inside. The algorithm determines this based on whether the detected provider is "gps" or "network". The reason for using this is that we have observed from the trace that if the user is currently outdoors, the tendency for the provider to switch to a predominantly "gps" provider is very high whereas if user is indoors, the tendency for the provider to switch to a predominantly "network" provider is very high. Once again, we will have a buffer, though the buffer is at a small size of 2 readings since the location sensor does not change very often and too big a buffer will result in inaccuracies.
+
+is_com1
+-------
+This flag indicates if the user is in COM1. The algorithm makes use of TA Han De's PiLoc getLocation API to determine if user is in COM1 or not. 
+
+
+====================================
+3. DECISION PROCESS (based on flags)
+====================================
+
+IF is_walking && !is_vehicle
+	OUTPUT UserActivity.WALKING
+ELSE
+	IF is_com1
+		OUTPUT UserActivity.IDLE_COM1
+	ELSE IF is_vehicle
+		OUTPUT UserActivity.BUS
+	ELSE
+		IF is_outside
+			OUTPUT UserActivity.IDLE_OUTDOORS
+		ELSE
+			OUTPUT UserActivity.IDLE_INDOORS
+
+===============================
+4. POSSIBLE FUTURE IMPROVEMENTS
+===============================
+
+i.	Step detection algorithm can maybe switch to the one discussed in the announcements since it is a more dynamic approach.
+ii. Determination of is_vehicle should be further refined so that we will be able to minimise the current overlap between vehicle and walking.
